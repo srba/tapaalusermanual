@@ -3,9 +3,9 @@ The main window of TAPAAL contains all the tools needed to draw Timed-Arc Petri 
 
 ![The main window in TAPAAL.](images/modelling/modelling/tapaal_modelling.png)
 
-TAPAAL supports drawing/modelling of all the features explained in the [[documentation:usermanual:modelling:features|modelling features]] section. It is possible to have multiple models open, and each model has its own drawing surface contained within a tab. Note that models in different tabs can not communicate or synchronize in any way. The left-hand pane contains the query list and the integer constant list. Integer constants will be covered later.
+TAPAAL supports drawing/modelling of all the features explained in the section modelling features. It is possible to have multiple models open, and each model has its own drawing surface contained within a tab. Note that models in different tabs can not communicate or synchronize in any way. The left-hand pane contains the query list and the integer constant list. Integer constants will be covered later.
 
-The query list allows you to create and save any number of queries for your model. For more information regarding the construction of queries please refer to the [[documentation:usermanual:verification|]] section. 
+The query list allows you to create and save any number of queries for your model. For more information regarding the construction of queries please refer to the section verification section. 
 
 ### Modelling Tools
 The modelling toolbar contains all the tools needed to draw TAPN models.
