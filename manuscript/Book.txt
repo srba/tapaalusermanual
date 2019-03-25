@@ -1,3 +1,6 @@
-chapter1.txt
-chapter2.txt
-chapter3.txt
+introduction.txt
+modelling.txt
+features.txt
+modelling_in_tapaal.txt
+simulation.txt
+verification.txt
