@@ -1,4 +1,4 @@
-= Simulation
+# Simulation
 
 
 In this section, we will look at how TAPAAL can be used for simulation of TAPN models. We will do this in terms of an example using the simple rollercoaster model presented in the [[documentation:usermanual:introduction]]. The TAPAAL model can be found [[http://www.tapaal.net/fileadmin/user_manual_models/rollercoaster.xml|Here]].
