@@ -55,11 +55,11 @@ The main purpose of this dialog is to allow you to change the time interval on t
 ### Integer Constants 
 As mentioned in the beginning of this section the left-hand pane of the main window contains the integer constant list. In TAPAAL it is possible to define integer constants which can then be used in invariants and time intervals. This is useful if you are using the same constant over and over and want an easy way to change the value if needed.
 
-To demonstrate the usefulness of these constants consider the model in the screenshot of the main window in the beginning of this section which contains 4 integer constants: //deadline//, //min//, //periodA// and //periodB//. This model is the webserver example which is one of the examples include in TAPAAL. To open it go to File -> Example nets -> webserver.
+To demonstrate the usefulness of these constants consider the model in the screenshot of the main window in the beginning of this section which contains 4 integer constants: `deadline`, `min`, `periodA` and `periodB`. This model is the webserver example which is one of the examples include in TAPAAL. To open it go to File -> Example nets -> webserver.
 
-It models two users //A// and //B// who are continuously making requests to a webserver with a specified period and the webserver must then try to handle all the requests from the users. However, if a request is not handled before a specified deadline (in this example the deadline is the same for all requests), it will be dropped.
+It models two users `A` and `B` who are continuously making requests to a webserver with a specified period and the webserver must then try to handle all the requests from the users. However, if a request is not handled before a specified deadline (in this example the deadline is the same for all requests), it will be dropped.
 
-In this example, the //deadline// constant represents the deadline for the requests and //periodA// and //periodB// are the periods with which user //A// and //B// produce new requests. Notice how these constants are used in multiple places. If we want to see what happens if we increase the deadline for handling requests, we can easily do this by only changing the value of the deadline constant from e.g. 5 to 6. Thus, we only need to change it in one place instead of every place where the constant is used.
+In this example, the `deadline` constant represents the deadline for the requests and `periodA` and `periodB` are the periods with which user `A` and `B` produce new requests. Notice how these constants are used in multiple places. If we want to see what happens if we increase the deadline for handling requests, we can easily do this by only changing the value of the deadline constant from e.g. 5 to 6. Thus, we only need to change it in one place instead of every place where the constant is used.
 
 ![The dialog for editing constants](images/modelling/modelling/constant_dialog.png)
 
