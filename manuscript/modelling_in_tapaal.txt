@@ -10,7 +10,7 @@ The query list allows you to create and save any number of queries for your mode
 ### Modelling Tools
 The modelling toolbar contains all the tools needed to draw TAPN models.
 
-![The modelling toolbar of TAPAAL](images/modelling/modelling/modelling_toobar.png)
+![The modelling toolbar of TAPAAL](images/modelling/modelling/modelling_toolbar.png)
 
 The modelling tools are (from left to right in the toolbar): 
 

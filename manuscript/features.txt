@@ -5,7 +5,7 @@ In order to provide some intuition for the Timed-Arc Petri Net (TAPN) model, we 
 ### Basic TAPN 
 The basic timed-arc Petri net is presented in the following figure. The TAPAAL model can be found [[http://www.tapaal.net/fileadmin/user_manual_models/example1.xml|Here]].
 
-![A basic TAPN model}(images/modelling/features/example1.png)
+![A basic TAPN model](images/modelling/features/example1.png)
 
 It includes two transitions t0 and t1 and five places p0, p1, p2, p3 and p4. There are tokens of age 0.0 in the places p0, p1 and p2. Initially, only t0 is //enabled// because its input place p0 contains a token of an age which satisfies the constraint on the arc from p0 to t0 (the constraint signifies that a token with an age between zero and infinity is required, i.e. a token of any age). Transition t1 requires a token of any age in p1 but also a token of an age in the interval [4,5] in p2 which is why t1 is not enabled initially.  Since t0 is enabled, we can fire it whereby we remove a token of an appropriate age from p0 and produce a token of age 0.0 in each of the places p3 and p4. However, we could also choose to do a time delay of, say, 4.5 time units, whereby all tokens in the net would grow 4.5 time units older. Since all tokens are now of age 4.5 both t0 and t1 are enabled since both would have tokens of appropriate ages in all their input places.
 
