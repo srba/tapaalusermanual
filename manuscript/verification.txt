@@ -84,6 +84,6 @@ Finally there is the `Reduction Options`, which allows you to choose which reduc
   * Broadcast Reduction
   * Broadcast Degree 2 Reduction
 
-The difference between these reductions are rather technical and thus left out here. The interested reader is referred to the list of published paper involving TAPAAL which can be found [Here](http://tapaal.net/index.php?id=22). Note, that the Standard and Optimised Standard reduction methods does not in general support queries of the type EG and AF.
+The difference between these reductions are rather technical and thus left out here. The interested reader is referred to the list of published paper involving TAPAAL which can be found [Here](http://tapaal.net/features/). Note, that the Standard and Optimised Standard reduction methods does not in general support queries of the type EG and AF.
 
 The use of symmetry reduction can greatly reduce the verification time of your models. Note however that currently it is not possible to obtain a trace if symmetry reduction is used.
