@@ -36,8 +36,6 @@ Following this, you specify the predicate to check. This is given as a boolean p
 
 where <place_name> is the name of a place, <operator> is one of the operators <, <=, =, =>, > and `n` is an integer. Thus, in the proposition we can only talk about the number of tokens in a place and not their ages.
 
-FIXME <= is interpreted as an arrow instead of \leq
-
 For instance, in the figure above a proposition `Garbage = 0` is specified which means that the place `Garbage` must contain zero tokens. 
 
 Since, the query type is EG, the full query specified simply means: There exists a trace on which every marking satisfies that the `Garbage` place contains zero tokens. In other words, it is possible to avoid placing any tokens in the `Garbage` place.

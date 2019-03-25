@@ -4,8 +4,6 @@ In this page we shall informally introduce the model used in TAPAAL, called time
 
 ![A simple TAPN model of a rollercoaster](images/introduction/rollercoaster.png)
 
-FIXME Inhibitor arcs not supported in current version
-
 The model of the rollercoaster contains a number of `places` (drawn as circles), `transitions` (drawn as black squares) and `arcs` from places to transitions or transitions to places. Time intervals are associated with arcs from places to transitions. Further, the places in the model may contain `tokens`, each of which is associated with a real number signifying the age of the token. In the example, there are two tokens in the place called `station`, both with age 0.0. Invariants may be assigned to places which restrict the ages of the tokens in that place. In our example, the place `first_half` has an associated invariant of [0,4] (written inv: \leq 4). 
 
 There are different types of arcs: normal arcs (normal arrow tip), transport arcs (diamond arrow tip) and inhibitor arcs (circle arrow tip). Intuitively, the normal arcs from places to transitions will consume tokens of appropriate ages and normal arcs from transitions to places will produce tokens of age zero. A transport arc works in a similar fashion except that any token produced will have the same age as the one consumed. Inhibitor arcs are used to test for the absence of tokens of certain ages in places.
