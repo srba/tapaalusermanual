@@ -1,4 +1,4 @@
-# Chapter 1
+# About TAPAAL
 
 This is some default content for a new Leanpub book.
 
