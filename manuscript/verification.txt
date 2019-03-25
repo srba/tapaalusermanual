@@ -77,7 +77,7 @@ Note that a current limitation of UPPAAL is that it is not always possible to ob
 
 
 ## Reduction Options 
-Finally there is the //Reduction Options//, which allows you to choose which reduction method to use and whether or not to use symmetry reduction. The possible reduction methods are:
+Finally there is the `Reduction Options`, which allows you to choose which reduction method to use and whether or not to use symmetry reduction. The possible reduction methods are:
 
   * Standard
   * Optimised Standard
