@@ -1,6 +1,6 @@
 introduction.md
-modelling.txt
-features.txt
-modelling_in_tapaal.txt
-simulation.txt
-verification.txt
+modelling.md
+features.md
+modelling_in_tapaal.md
+simulation.md
+verification.md
