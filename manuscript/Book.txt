@@ -1,4 +1,4 @@
-introduction.txt
+introduction.md
 modelling.txt
 features.txt
 modelling_in_tapaal.txt
