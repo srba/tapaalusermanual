@@ -1,6 +1,6 @@
 # Introduction
 
-In this page we shall informally introduce the model used in TAPAAL, called timed-arc Petri nets with inhibitor arcs, transport arcs and invariants. To do so we shall use a model of a rollercoaster which is illustrated in the following figure. The TAPAAL model can be found [here](http://www.tapaal.net/fileadmin/user_manual_models/rollercoaster.xml).
+In this page we shall informally introduce the model used in TAPAAL, called timed-arc Petri nets with inhibitor arcs, transport arcs and invariants. To do so we shall use a model of a rollercoaster which is illustrated in the following figure. The TAPAAL model can be found [here](http://www.tapaal.net/fileadmin/user_manual_models/rollercoaster.tapn).
 
 ![A simple TAPN model of a rollercoaster](images/introduction/rollercoaster.png)
 
